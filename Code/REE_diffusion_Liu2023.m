@@ -1,5 +1,3 @@
-% This script reset the configuration file REE_diffusion_Liu2023.mat
-%
 % REE_diffusion_Liu2023 is a free code for rare earth element diffusion
 % modeling, which developed for Liu et al. 2023 manuscript "Ultra-fast mineral growth
 % during regional metamorphism"
