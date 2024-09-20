@@ -1,0 +1,7 @@
+Here is the folder containing the code, in the Julia programming language, used to model the moving boundary diffusion code. This folder contains 1 script (in the folder "scripts"), which can be used to reproduce the figure 6 in the original paper and run 6 different models, testing the effect of dissolution rates of an igneous pyroxene on the diffusion profil of Lu in a melt. It also contains a folder "movies", which contains gif of models with different dissolution rate. For more details on the theoretical background behind the code, refer to the original publication.
+
+To get started, clone or download this repository. Install and launch Julia in project mode in the terminal in this folder running the following command 'julia --project' and instantiate or resolve the dependencies from within the REPL in package mode 'julia> ]' (see Julia documentations for more details).
+
+Then, you can run the script present in the folder "scripts", either from the terminal: 'julia --project scripts/moving_boundary_px_melt.jl' or directly from the Julia REPL: 'julia> include("scripts/moving_boundary_px_melt.jl")'. The will generate a similar figure as Figure 9 in the original manuscript.
+
+This code was written by Hugo Dominguez on Julia 1.10.5 (see the Manifest file for full details on the dependencies used). Don't hesitate to contact him for more details or if you have trouble running the code.
